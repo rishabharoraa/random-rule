@@ -1,5 +1,4 @@
 import sal from "./sal.jpeg";
-import ghLogo from "./GitHub-Mark-32px.png";
 
 const Navbar = (): JSX.Element => {
   return (
@@ -14,7 +13,11 @@ const Navbar = (): JSX.Element => {
         </div>
       </div>
       <div className="mr-2">
-        <a href="" target="_blank">
+        <a
+          href="https://github.com/RishabhAroraa/random-rule"
+          target="_blank"
+          rel="noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             x="0px"

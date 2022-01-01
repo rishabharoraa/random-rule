@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="mt-8"></div>
+      <div className="mt-16"></div>
       <MainPage />
     </>
   );

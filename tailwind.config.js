@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       height: {
-        video: "calc((9/16)*)",
+        almostFull: "calc(100vh - 4rem)",
       },
     },
   },

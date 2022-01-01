@@ -4,11 +4,11 @@ const MainPage = (): JSX.Element => {
   const { image, isLoading, getRandomMeme, postTitle, postURL } = UseMeme();
 
   return (
-    <div className="h-screen w-full flex justify-center items-center">
+    <div className="h-almostFull w-full flex justify-center items-center">
       <div className="flex flex-col items-center max-w-xl w-11/12">
         <div className="text-center text-l w-full bg-orange-500 text-white rounded-t-md p-2">
           {postTitle ? (
-            <a href={postURL}>
+            <a href={postURL} target="_blank" rel="noreferrer">
               <div className=" flex justify-center items-center hover:underline">
                 {postTitle}
                 <svg
@@ -33,7 +33,7 @@ const MainPage = (): JSX.Element => {
         </div>
         <div className="w-full border border-gray flex flex-col justify-center items-center h-96">
           {image && (
-            <a href={image}>
+            <a href={image} target="_blank" rel="noreferrer">
               <img src={image} alt="meme" className="h-96 object-contain" />
             </a>
           )}
