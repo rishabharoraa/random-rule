@@ -1,16 +1,16 @@
+import sal from "./sal.jpeg";
 import ghLogo from "./GitHub-Mark-32px.png";
-import rtLogo from "./logo.svg";
 
 const Navbar = (): JSX.Element => {
   return (
-    <nav className="fixed p-3 top-0 bg-red-700 w-full text-white flex items-center justify-between">
+    <nav className="fixed p-3 top-0 bg-orange-500 w-full text-white flex items-center justify-between">
       <div className="flex">
         <div className="flex justify-center items-center mr-5 ml-2">
-          <img src={rtLogo} alt="random-tube logo" className="w-10 h-10" />
+          <img src={sal} alt="random-tube logo" className="w-10 h-10" />
         </div>
         <div>
-          <div>Random-Tube</div>
-          <div className="text-xs">View a random youtube video</div>
+          <div>Random-Meme</div>
+          <div className="text-xs">View a random meme</div>
         </div>
       </div>
       <div className="mr-2">
