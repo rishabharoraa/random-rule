@@ -43,7 +43,7 @@ const MainPage = (): JSX.Element => {
             className="flex-1 text-sm text-white bg-orange-500 p-[0.5rem] border border-orange-500 rounded transition-all hover:bg-white hover:text-orange-500"
             onClick={getRandomMeme}
           >
-            {isLoading ? "Loading..." : "Get Random Meme"}
+            {isLoading ? "Loading..." : "Get Random Rule"}
           </button>
         </div>
       </div>

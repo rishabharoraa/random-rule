@@ -8,8 +8,8 @@ const Navbar = (): JSX.Element => {
           <img src={sal} alt="random-tube logo" className="w-10 h-10" />
         </div>
         <div>
-          <div>Random-Meme</div>
-          <div className="text-xs">View a random meme</div>
+          <div>Random Rule</div>
+          <div className="text-xs">View a random rule</div>
         </div>
       </div>
       <div className="mr-2">
